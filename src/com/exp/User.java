@@ -4,11 +4,18 @@ public class User {
 	private String name;
 	private String email;
 	private String password;
+	private String DOB;
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getDOB() {
+		return DOB;
+	}
+	public void setDOB(String dOB) {
+		DOB = dOB;
 	}
 	public String getEmail() {
 		return email;
